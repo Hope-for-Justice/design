@@ -1,0 +1,12 @@
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+
+# Ignore node module to avoid clutter in the git repo
+# Use npm install to get local copies of all required packages
+/node_modules/
+
