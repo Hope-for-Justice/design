@@ -1,0 +1,32 @@
+/* ====================================================================================================================
+ * VARIABLES SCSS
+ * ====================================================================================================================*/
+
+
+//spacing unit
+$space: 16px;
+
+//colours
+$hfj-black:#212322;
+$hfj-red:#D6001C;
+$hfj-purple:#312937;
+$hfj-blue: #8BBEE8;
+$hfj-yellow: #FFC845;
+$hfj-green: #5CAA7F;
+$white:#ffffff;
+$freedom-wall:#8E949E;
+
+//mq
+$mq-breakpoints: (
+    mobile:  320px,
+    mobileLarge: 480px,
+    phablet: 600px,
+    tablet:  768px,
+    desktop: 1024px,
+    desktopLarge: 1440px,
+    wide:1800px,
+    extraWide:2560px,
+
+) !default;
+
+$mq-show-breakpoints: (mobile, mobileLarge, phablet, tablet, desktop, desktopLarge, wide, extraWide);
