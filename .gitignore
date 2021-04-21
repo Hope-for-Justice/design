@@ -10,3 +10,5 @@ Thumbs.db
 # Use npm install to get local copies of all required packages
 /node_modules/
 
+# Ignore grunt stuff
+/.sass-cache/
