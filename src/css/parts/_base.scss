@@ -6,48 +6,29 @@ html, body {
   	margin:0;
   	padding:0px;
   	background-color: $hfj-black;
+  	text-rendering: optimizeLegibility;
 }
 
-.site-content {display:none;}
 
-.mobile{
+.mobile {
+	width:100%;
+	height:calc(1px + 100vh);
+	padding:30px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
-	color: $white;
-	min-height: 100vh;
-	padding: ($space * 3);
-
-	&__text {
-		margin:0;
-		font-size: 32px;
+	border-bottom: 1px solid white;
+	&__logo {
+		margin-top:auto;
+		width:60%;
+		max-width: 250px;
 	}
 }
-
 
 ////////////////////////////////////////////////// phablet //////////////////////////////////////////////////
 
-@include mq($from: phablet) {
+@include mq($from: tablet) {
 
-.mobile{
-	align-items: center;
-	justify-content: center;
-
-	&__text {
-		margin:0;
-		font-size: 42px;
-		text-align: center;
-		max-width: 480px;
-		margin-top:-10vh;
-	}
-
-	&__logo {
-		position: fixed;
-		bottom:($space * 3);
-		left: ($space * 3);
-	}
-}
+.mobile {display: none;}
 
 }
 
@@ -55,8 +36,10 @@ html, body {
 
 @include mq($from: desktop) {
 
-.mobile {display: none;}
 
-.site-content {display: flex;}
+.site-content {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 }

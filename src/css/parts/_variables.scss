@@ -4,7 +4,7 @@
 
 
 //spacing unit
-$space: 1vw;
+$space: 0.8em;
 
 //colours
 $hfj-black:#212322;
@@ -19,6 +19,7 @@ $freedom-wall:#8E949E;
 //mq
 $mq-breakpoints: (
     mobile:  320px,
+    mobileMedium:  375px,
     mobileLarge: 480px,
     phablet: 600px,
     tablet:  768px,
@@ -29,4 +30,4 @@ $mq-breakpoints: (
 
 ) !default;
 
-$mq-show-breakpoints: (mobile, mobileLarge, phablet, tablet, desktop, desktopLarge, wide, extraWide);
+//$mq-show-breakpoints: (mobile, mobileMedium, mobileLarge, phablet, tablet, desktop, desktopLarge, wide, extraWide);
