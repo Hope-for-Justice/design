@@ -78,6 +78,7 @@
 	min-height: 100vh;
 	box-shadow: none;
 	border-right: 1px solid $white;
+	overflow-y: scroll;
 	&__mobile {
 		display: none;
 	}

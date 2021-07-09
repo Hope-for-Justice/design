@@ -41,33 +41,44 @@ grunt.initConfig({
     }
   },
   watch: { 
-  js: {
-    files: ['src/**/*.js'],
-    tasks: ['js_changed'],
+    js: {
+      files: ['src/**/*.js'],
+      tasks: ['js_changed'],
+    },
+    scss: {
+      files: ['src/**/*.scss'],
+      tasks: ['scss_changed'],
+    },
+    html: {
+      files: ['src/**/*.html'],
+      tasks: ['html_changed'],
+    }
   },
-  scss: {
-    files: ['src/**/*.scss'],
-    tasks: ['scss_changed'],
+  autoprefixer: {
+    options: {
+      browsers: ['last 5 versions']
+    },
+    dist:{
+      files:{
+        'dist/css/main.css':'dist/css/main.css'
+      }
+    }
   },
-  html: {
-    files: ['src/**/*.html'],
-    tasks: ['html_changed'],
-  },
-}
 });
 
 grunt.loadNpmTasks('grunt-contrib-copy');
 grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.loadNpmTasks('grunt-contrib-jshint');
 grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-autoprefixer');
 
 grunt.registerTask('default',[
-	'jshint','copy:main','copy:js', 'copy:img', 'copy:fonts','sass','watch'
+	'jshint','copy:main','copy:js', 'copy:img', 'copy:fonts','sass','autoprefixer','watch'
 ]);
 
 // specific tasks
 grunt.registerTask('html_changed',['copy:main']);
-grunt.registerTask('scss_changed',['sass']);
+grunt.registerTask('scss_changed',['sass', 'autoprefixer']);
 grunt.registerTask('js_changed',['jshint','copy:js']);
 
 };
