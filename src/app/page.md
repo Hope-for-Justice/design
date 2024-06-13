@@ -6,7 +6,7 @@ nextjs:
     description: We use this ‘positioning statement’ as our core summary of ‘who we are and what we do’.
 ---
 
-# Bringing freedom from modern-day slavery
+# Bringing freedom from modern slavery
 
 We use this ‘positioning
 statement’ as our core
@@ -38,4 +38,3 @@ to human trafficking is transformed into resilience. It means
 improving the response, partnering with other agencies
 and civil society, while standing with survivors to create
 a world in which everyone can live free from slavery.
-

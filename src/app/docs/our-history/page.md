@@ -30,7 +30,7 @@ of Hope for Justice.
 Hope for Justice began in the UK
 in 2008, when a small group of
 people passionate about seeing an
-end to modern-day slavery took
+end to modern slavery took
 the step from outrage to action.
 They brought together nearly
 6,000 people at an event called

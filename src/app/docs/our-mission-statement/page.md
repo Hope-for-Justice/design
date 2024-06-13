@@ -3,10 +3,10 @@ title: Our Mission Statement
 nextjs:
   metadata:
     title: Our Mission Statement
-    description: We use this ‘positioning statement’ as our core summary of ‘who we are and what we do’.
+    description: 
 ---
 
-# Together, we are bringing freedom from human trafficking and modern-day slavery by identifying victims, supporting survivors and preventing exploitation.
+# Together, we are bringing freedom from human trafficking and modern slavery by identifying victims, supporting survivors and preventing exploitation.
 
 This is our mission
 statement. We use our

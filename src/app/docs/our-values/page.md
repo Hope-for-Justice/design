@@ -29,4 +29,4 @@ despite the darkness and
 keeps us focused on our
 mission to bring freedom
 from human trafficking
-and modern-day slavery.
+and modern slavery.

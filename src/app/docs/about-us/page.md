@@ -9,7 +9,7 @@ nextjs:
 # About Hope for Justice and Slave-Free Alliance
 
 Hope for Justice is a charity working to bring freedom
-from human trafficking and modern-day slavery with an
+from human trafficking and modern slavery with an
 effective and proven multi-disciplinary model. Our wholly
 owned social enterprise, Slave-Free Alliance, provides
 services to global companies and public bodies seeking
